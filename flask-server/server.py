@@ -10,7 +10,7 @@ def home():
 # ./documentation
 @app.route("/documentation")
 def documentation():
-    return jsonify({"success":True,"message":"Aqui estaran las lecturas"})
+    return jsonify({"success":True,"message":""})
 
 # ./exercises 
 @app.route("/exercises")

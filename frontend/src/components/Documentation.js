@@ -1,4 +1,6 @@
 import React,{useState,useEffect} from 'react';
+import { SideBar } from './SideBar';
+import { Outlet } from 'react-router';
 
 function Documentation(){
     const [data,setData] = useState([{}])
@@ -12,12 +14,12 @@ function Documentation(){
     },[])
     // Dependiendo de lo que obtengamos en la respuesta
     return(
-        <div>
-            {(typeof data.message === 'undefined')?(
-                <h1>Cargando</h1>
-            ):
-            data.message}
-        </div>
+        <main className="main">
+            <SideBar />
+            <section>
+                <Outlet />
+            </section>
+        </main>
     );
 }
 export default Documentation;
