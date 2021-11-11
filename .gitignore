@@ -1,10 +1,6 @@
 node_modules
-.Python
-[Bb]in
-[Ii]nclude
-[Ll]ib
-[Ll]ib64
-[Ll]ocal
-[Ss]cripts
+Lib
+Scripts
+_pycache_
+.vscode
 pyvenv.cfg
-.venv

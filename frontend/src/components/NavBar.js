@@ -7,9 +7,10 @@ import Documentation from './Documentation';
 import Exercises from './Exercises';
 import DesktopGame from './DesktopGame';
 import AboutUs from './AboutUs';
-import Logica from './Logica'
-import Cuantificadores from './Cuantificadores'
-import PruebasPorResolucion from './PruebasPorResolucion'
+import Logica from './documentation/Logica'
+import Cuantificadores from './documentation/Cuantificadores'
+import PruebasPorResolucion from './documentation/PruebasPorResolucion'
+import './styles/NavBar.css'
 
 export default class NavBar extends Component {
   render() {

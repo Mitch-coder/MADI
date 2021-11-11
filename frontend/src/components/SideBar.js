@@ -1,9 +1,11 @@
 import React from 'react'
-import './SideBar.css'
+import './styles/SideBar.css'
 import { Link, useLocation } from 'react-router-dom';
 
 export function SideBar() {
     const location = useLocation();
+
+    // Rutas en el arreglo para cada uno de los temas
     const routes = [
         {
             path: "/documentation/logica",
@@ -23,17 +25,11 @@ export function SideBar() {
             current: false
         },
     ];
+
+
     const [data, setData] = React.useState(routes);
 
-    function openOptions(e) {
-        const children = e.target.children;
-        for (const element of children) {
-          if (element.classList.contains("submenu")) {
-            element.classList.toggle("active");
-          }
-        }
-    }
-
+    // Detecta en que ruta se encuentra y se re-renderiza
     React.useEffect(() => {
         const current = data.find((route) => route.path === location.pathname);
         if (current) {
@@ -42,13 +38,15 @@ export function SideBar() {
           setData([...data]);
         }
         console.log(data);
-      }, [location]);
+    }, [location]);
     
     return (
         <section className="sidebar">
+            <div className="sidebar-header">
+                <h1>Temas</h1>
+            </div>
             <ul className="lists">
-                <li className="list-sidebar" onClick={openOptions}>
-                Explorar
+                <li className="list-sidebar">
                 <div className="submenu">
                     <ul>
                     {data.map((route, index) => {
