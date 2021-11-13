@@ -7,8 +7,11 @@ import Documentation from './Documentation';
 import Exercises from './Exercises';
 import DesktopGame from './DesktopGame';
 import AboutUs from './AboutUs';
-import Logica from './documentation/Logica'
+import LogicaProposicional from './documentation/LogicaProposicional'
+import Proposiciones from './documentation/Proposiciones'
+import ProposicionesCondicionales from './documentation/PCYEL'
 import Cuantificadores from './documentation/Cuantificadores'
+import CuantificadoresAnidados from './documentation/CuantificadoresAnidados'
 import PruebasPorResolucion from './documentation/PruebasPorResolucion'
 import './styles/NavBar.css'
 
@@ -41,8 +44,11 @@ export default class NavBar extends Component {
             <Route path="/desktopGame" element={<DesktopGame/>}/>
             <Route path="/aboutUs" element={<AboutUs/>}/>
             <Route path="documentation" element={<Documentation/>}>
-              <Route path="/documentation/logica" element={<Logica/>}/>
+              <Route path="/documentation/logicaproposicional" element={<LogicaProposicional/>}/>
+              <Route path="/documentation/proposiciones" element={<Proposiciones/>}/>
+              <Route path="/documentation/pcyel" element={<ProposicionesCondicionales/>}/>
               <Route path="/documentation/cuantificadores" element={<Cuantificadores/>}/>
+              <Route path="/documentation/cuantificadoresanidados" element={<CuantificadoresAnidados/>}/>
               <Route path="/documentation/pruebaporresolucion" element={<PruebasPorResolucion/>}/>
             </Route>
         </Routes>
