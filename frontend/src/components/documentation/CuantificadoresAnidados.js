@@ -23,6 +23,53 @@ function CuantificadoresAnidados() {
                                 variables que les corresponden.
                             </p>
 
+                            <h1>Ejercicios Resueltos</h1>
+
+                            <h5>
+                                Replantee simbólicamente:
+                            </h5>
+
+                            <p class="text-center">
+                                <i>La suma de dos números reales positivo cualquiera da como resultado otro numero positivo.</i>
+                            </p>
+
+                            <p>∀x∀y((x mayor 0 ^ y mayor 0 )→ (x+y mayor 0)) </p>
+
+                            <h5>
+                                Replantee en palabras:
+                            </h5>
+
+                            <p class="text-center">
+                                <i> ∃m∀n( m mayor n ) </i>
+                            </p>
+
+                            <p>Existe un numero que para todos los números este sea menor que el otro</p>
+
+                            <p class="text-center">
+                                <i> ∀x∃y(x mayor y) </i>
+                            </p>
+
+                            <p> Para todos los elementos x existe otro elemento y el cual este sea mayor que x</p>
+
+                            <p class="text-center">
+                                <i>∀x∀y(x+y=0)</i>
+                            </p>
+
+                            <p>Para todo x y para todo y, la sumatoria de ambos es igual a 0 </p>
+
+                            <p class="text-center">
+                                <i>∃x∀y(x+y=0)</i>
+                            </p>
+
+                            <p> Existe un elemento x que para todo y su sumatoria de igual a 0 </p>
+
+                            <p class="text-center">
+                                <i>∃m∀n(m=n)</i>
+                            </p>
+
+                            <p> Existe un numero que sea igual a todos los números. </p>
+
+
                         </div>
                     </div>
                 </div>
