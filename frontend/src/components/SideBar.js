@@ -8,14 +8,32 @@ export function SideBar() {
     // Rutas en el arreglo para cada uno de los temas
     const routes = [
         {
-            path: "/documentation/logica",
-            name: "Logica",
+            path: "/documentation/logicaproposicional",
+            name: "Logica Proposicional",
+            current: false
+        },
+
+        {
+            path: "/documentation/proposiciones",
+            name: "Proposiciones",
+            current: false
+        },
+
+        {
+            path: "/documentation/pcyel",
+            name: "Proposicion Condicional y Equivalentes Logicos",
             current: false
         },
 
         {
             path: "/documentation/cuantificadores",
             name: "Cuantificadores",
+            current: false
+        },
+
+        {
+            path: "/documentation/cuantificadoresanidados",
+            name: "Cuantificadores Anidados",
             current: false
         },
 

@@ -11,8 +11,23 @@ export const SideBarData = [
     },
 
     {
+        title : "Proposiciones",
+        link : "/proposiciones"
+    },
+
+    {
+        title : "Logica Proposicional y Equivalentes Logicos",
+        link : "/pcyel"
+    },
+
+    {
         title : "Cuantificadores",
         link : "/cuantificadores"
+    },
+
+    {
+        title : "Cuantificadores Anidados",
+        link : "/cuantificadoresanidadoss"
     },
 
     {
