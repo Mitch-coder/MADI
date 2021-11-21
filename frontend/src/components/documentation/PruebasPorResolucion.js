@@ -3,8 +3,13 @@ import './styles/Info.css'
 
 function PruebasPorResolucion() {
     return (
-        <div>
-            <main class="container-fluid vh-100">
+        <section className="topic-container">
+            
+            <div className="topic-header">
+                <h1> Prueba Por Resolucion </h1>
+            </div>
+
+            <div class="container-fluid vh-100">
 
                 <div class="row">
 
@@ -158,8 +163,8 @@ function PruebasPorResolucion() {
                         </div>
                     </div>
                 </div>
-            </main>
-        </div>
+            </div>
+        </section>
     )
 }
 
