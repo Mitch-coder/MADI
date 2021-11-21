@@ -15,10 +15,10 @@ function Documentation(){
     // Dependiendo de lo que obtengamos en la respuesta
     return(
         <main className="main">
+            {(typeof data.message === 'undefined')?(
+            <h1>Cargando</h1>):data.message}
             <SideBar />
-            <section>
-                <Outlet />
-            </section>
+            <Outlet />
         </main>
     );
 }

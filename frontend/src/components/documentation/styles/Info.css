@@ -1,0 +1,12 @@
+.topic-container {
+    background-color: #161c32;
+}
+
+.topic-header {
+    padding-top: 3%;
+}
+
+.topic-header h1 {
+    color: #9fa3bc;
+    margin: 0;
+}
