@@ -14,7 +14,9 @@ function Exercises(){
     return(
         <div>
             {(typeof data.message === 'undefined')?(
-                <h1>Cargando</h1>
+                <div class="spinner-border text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
             ):
             data.message}
         </div>
