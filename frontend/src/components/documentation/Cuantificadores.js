@@ -1,21 +1,16 @@
 import React from 'react'
+import './styles/Info.css'
 
 function Cuantificadores() {
     return (
-        <div>
-            <main class="container-fluid vh-100">
-
+        <section className="topic-container">
+            <div className="topic-header">
+                <h1> Cuantificadores </h1>
+            </div>
+            <div className="container-fluid vh-100">
                 <div class="row">
-
                     <div class="col-10 text-dark text-start">
-
                         <div class="m-4">
-                            <div class="row ">
-                                <div class="col-12">
-                                    <h1>Cuantificadores</h1>
-                                </div>
-                            </div>
-
                             <p>
                                 Normalmente la lógica de diversas proposiciones es incapaz de describir 
                                 la mayoría de las afirmaciones que se hacen.Dando como ejemplo:
@@ -39,7 +34,7 @@ function Cuantificadores() {
 
                             <p>
                                 Una función proposicional no es ni verdadero ni falsa por si misma, pero para cada
-                                 valor de su variable dentro de su dominio de discurso,
+                                valor de su variable dentro de su dominio de discurso,
                                 esta es verdadera o falsa.Su connotación se define como:
                             </p>
 
@@ -95,7 +90,8 @@ function Cuantificadores() {
                             </p>
 
                             <p>Es una función proposicional, (Dominio de discurso: Conjunto de 
-                                artista que lanzaron su álbum en 1998).</p>
+                                artista que lanzaron su álbum en 1998).
+                            </p>
 
                             <p class="text-center">
                                 <i>2 + 2 = 4:</i>
@@ -112,30 +108,34 @@ function Cuantificadores() {
                             </p>
 
                             <p>Esta afirmación es verdadera, ya que para todo numero elevado al
-                                cuadrado siempre dará como resultado un numero positivo o igual a 0.</p>
+                                cuadrado siempre dará como resultado un numero positivo o igual a 0.
+                            </p>
 
                             <p class="text-center">
                                 <i> ∀x(x^2-1 mayor 0)    Dominio de discurso: Conjunto de números reales.</i>
                             </p>
 
                             <p>Esta afirmación es falsa debido a que hay
-                                un número que incumple esta condición.</p>
+                                un número que incumple esta condición.
+                            </p>
 
                             <p class="text-center">
                                 <i>∃x(x/(x^2+1)=2/5) Dominio de discurso: conjunto de números reales.</i>
                             </p>
 
                             <p>Esta afirmación es verdadera ya que existe al menos un numero de ese
-                                conjunto que hace a la preposición verdadera.</p>
+                                conjunto que hace a la preposición verdadera.
+                            </p>
 
                             <p class="text-center">
                                 <i>∃x(x/(x^2+1) mayor 1) Dominio de discurso: conjunto de números reales.</i>
                             </p>
 
                             <p>Esta afirmación es falsa ya que no existe ningún elemento del conjunto que cumpla
-                                con la condición y por ende toda la declaración termina siendo falsa.</p>
+                                con la condición y por ende toda la declaración termina siendo falsa.
+                            </p>
 
-                                <h5>
+                            <h5>
                                 Sea P(n) “n divide a 77” escriba la preposición en palabras e indique si es verdadero o falso.
                             </h5>
 
@@ -150,12 +150,11 @@ function Cuantificadores() {
                             </p>
 
                             <p>Existe un numero que divida a 77 (verdadero)</p>
-
                         </div>
                     </div>
                 </div>
-            </main >
-        </div >
+            </div> 
+        </section>
     )
 }
 

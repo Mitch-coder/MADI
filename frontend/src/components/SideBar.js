@@ -63,12 +63,9 @@ export function SideBar() {
             <div className="sidebar-header">
                 <h1>Temas</h1>
             </div>
-            <ul className="lists">
-                <li className="list-sidebar">
-                <div className="submenu">
-                    <ul>
-                    {data.map((route, index) => {
-                        return (
+            <ul className="lists-group">
+                {data.map((route, index) => {
+                    return (
                         <li
                             className={`list-sidebar ${
                             route.current ? "result" : null
@@ -79,13 +76,8 @@ export function SideBar() {
                             {route.name}
                             </Link>
                         </li>
-                        );
-                    })}
-                    </ul>
-                </div>
-                </li>
-                <li className="list-sidebar"></li>
-                <li className="list-sidebar"></li>
+                    );
+                })}
             </ul>
         </section>
     );

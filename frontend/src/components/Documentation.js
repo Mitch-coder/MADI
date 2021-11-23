@@ -14,20 +14,13 @@ function Documentation() {
             })
     }, [])
     // Dependiendo de lo que obtengamos en la respuesta
-    return (
-
-        <div>
-            {(typeof data.message === 'undefined') ? (
-                <div class="spinner-border text-warning" role="status">
-                    <span class="visually-hidden">Loading...</span>
-                </div>) :
-                <main className="main">
-                    <SideBar />
-                    <section>
-                        <Outlet />
-                    </section>
-                </main>}
-        </div>
+    return(
+        <main className="main">
+            {(typeof data.message === 'undefined')?(
+            <h1>Cargando</h1>):data.message}
+            <SideBar />
+            <Outlet />
+        </main>
     );
 }
 export default Documentation;

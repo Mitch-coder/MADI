@@ -1,7 +1,13 @@
 .main {
     display: grid;
-    grid-template-columns: 35% 65%;
-    min-height: 100vh;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 95vh;
+    overflow: hidden;
+    /*min-height: 261vh;*/
+  }
+
+  .sidebar-header {
+    padding-top: 5%;
   }
 
   .sidebar-header h1 {
@@ -10,13 +16,13 @@
   
   .sidebar {
     padding: 0;
-    width: 390px;
     background-color: #292d48;
     color: #6b68b9;
   }
   
-  .lists {
-    padding-left: 0;
+  .lists-group {
+    padding-left: 5%;
+    padding-right: 5%;
     margin: 0;
   }
   
@@ -28,6 +34,11 @@
     padding: 1.5rem;
     transition: 0.10s ease-in-out;
     border-radius: 0.5rem;
+    margin-top: 5%;
+  }
+
+  .list-sidebar:hover {
+    background-color: #161c32;
   }
   
   .submenu li:hover {
@@ -61,7 +72,6 @@
   }
 
   .link:hover {
-    /*background-color: #8b91a9;*/
     color:#ede7ff;
   }
 

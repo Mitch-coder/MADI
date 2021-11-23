@@ -1,18 +1,19 @@
 import React from 'react'
+import './styles/Info.css'
 
 function CuantificadoresAnidados() {
     return (
-        <div>
-            <main class="container-fluid vh-100">
-
+        <section className="topic-container">
+            <div className="topic-header">
+                <h1> Cuantificadores anidados </h1>
+            </div>
+            <div className="container-fluid vh-100">
                 <div class="row">
-
                     <div class="col-10 text-start">
-
                         <div class="m-4">
                             <div class="row ">
                                 <div class="col-12">
-                                    <h1>Cuantificadores anidados</h1>
+                                    <h1></h1>
                                 </div>
                             </div>
 
@@ -68,13 +69,11 @@ function CuantificadoresAnidados() {
                             </p>
 
                             <p> Existe un numero que sea igual a todos los números. </p>
-
-
                         </div>
                     </div>
                 </div>
-            </main>
-        </div>
+            </div>
+        </section>
     )
 }
 
