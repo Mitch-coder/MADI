@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './styles/DesktopGame.css'
+import imagen from './mainimages/aaa.jpg';
+
 function DesktopGame() {
     const [data, setData] = useState([{}])
     // Mandamos a consultar los datos al api
@@ -26,7 +28,7 @@ function DesktopGame() {
                     </div>
 
                     <div class="row">
-                        <div class="col-6 text-center">
+                        <div class="col-lg-6 col-12 text-center">
 
                             <h3 class="m-5"> De una nueva experiencia... </h3>
 
@@ -41,9 +43,11 @@ function DesktopGame() {
                             </div>
                         </div>
 
-                        <div class="col-6 text-start">
+                        <div class="col-lg-6 col-12 text-start">
 
-                            <h3 class="m-5"> Se supone que aqui podria haber una imagen del juego </h3>
+                            <h3 class="m-5">
+                                <img src={imagen} class="img-fluid" alt='logo' />
+                            </h3>
                             <p>
                             </p>
 
@@ -53,15 +57,17 @@ function DesktopGame() {
 
                     <div class="row">
 
-                        <div class="col-6 text-start">
-                            <h3 class="m-5"> Otra imagen u.u </h3>
+                        <div class="col-lg-6 col-12 text-start">
+                            <h3 class="m-5">
+                                <img src={imagen} class="img-fluid" alt='logo' />
+                            </h3>
 
                             <p>
                             </p>
 
                         </div>
 
-                        <div class="col-6 text-center">
+                        <div class="col-lg-6 col-12 text-center">
 
                             <h3 class="m-5"> Mas nuevas experiencia... </h3>
 
@@ -80,7 +86,7 @@ function DesktopGame() {
 
                     <div class="row">
 
-                        <div class="col-6 text-center">
+                        <div class="col-lg-6 col-12 text-center">
 
                             <h3 class="m-5"> Muchas experiencias... </h3>
 
@@ -95,8 +101,10 @@ function DesktopGame() {
                             </div>
                         </div>
 
-                        <div class="col-6 text-start">
-                            <h3 class="m-5"> Mas imagen </h3>
+                        <div class="col-lg-6 col-12 text-start">
+                            <h3 class="m-5">
+                                <img src={imagen} class="img-fluid" alt='logo' />
+                            </h3>
                             <p>
                             </p>
                         </div>
