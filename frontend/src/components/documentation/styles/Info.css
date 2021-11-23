@@ -1,12 +1,78 @@
 .topic-container {
     background-color: #161c32;
+    overflow-y: auto;
 }
 
-.topic-header {
-    padding-top: 3%;
+.container {
+    font-family: "Open Sans";
 }
 
-.topic-header h1 {
-    color: #9fa3bc;
+.topic-header h3 {
+    /*color: #9fa3bc;*/
     margin: 0;
+    font-size: 30px;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.container .col-12 p {
+    text-align: center;
+}
+
+.container .text {
+    color: #9fa3bc;
+    font-size: 20px;
+    text-align: center;
+}
+
+.row .list-section {
+    list-style: none;
+    color: #9fa3bc;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.list-section li::before {
+    content: "▹    ";
+}
+
+.list-section li {
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+}
+
+.container .description {
+    color: #9fa3bc;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+
+.tables-section {
+    text-align: center;
+    font-size: 18px;
+}
+
+.box-exp {
+    background-color: #8B91A9;
+}
+
+.image-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-gap: 10px;
+
+    /* For 2 columns */
+    /*grid-template-columns: auto auto;
+    justify-content: stretch;*/
+    color: #9fa3bc;
+}
+
+.img-header {
+    color: #9fa3bc;
 }

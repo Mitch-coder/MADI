@@ -10,14 +10,7 @@ function Cuantificadores() {
             <div className="container-fluid vh-100">
                 <div class="row">
                     <div class="col-10 text-dark text-start">
-
                         <div class="m-4">
-                            <div class="row ">
-                                <div class="col-12">
-                                    <h1>Cuantificadores</h1>
-                                </div>
-                            </div>
-
                             <p>
                                 Normalmente la lógica de diversas proposiciones es incapaz de describir 
                                 la mayoría de las afirmaciones que se hacen.Dando como ejemplo:
