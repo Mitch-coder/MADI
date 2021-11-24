@@ -11,7 +11,7 @@ export const SideBarData = [
     },
 
     {
-        title : "Proposiciones",
+        title : "Conjunción y Disyunción",
         link : "/proposiciones"
     },
 

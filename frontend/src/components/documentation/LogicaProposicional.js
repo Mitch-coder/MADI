@@ -7,15 +7,8 @@ import Ejem1 from './imgs/ejem1.png'
 import Ejem2 from './imgs/ejem2.png'
 import Latex1 from './imgs/latex1.png'
 import Latex2 from './imgs/latex2.png'
-import Table1 from './imgs/table-1.png'
 import Table2 from './imgs/table-2.png'
 import Table3 from './imgs/table-3.png'
-import Table4 from './imgs/table-4.png'
-import Img1 from './imgs/Conjuncion.png'
-import Img2 from './imgs/Disyuncion.png'
-import Img3 from './imgs/Negacion.png'
-import Img4 from './imgs/Condicional.png'
-import Img5 from './imgs/Bicondicional.png'
 
 function Logica() {
     return (
@@ -27,8 +20,8 @@ function Logica() {
                         Una <b>proposición lógica</b> es una agrupación de términos de la que se puede afirmar si es <b>falso o verdadero</b>. Estas pueden ser atómicas o moleculares.
                     </p>
                 </div>
-                <div className="row mb-20 mb-xl-24 my-5">
 
+                <div className="row mb-20 mb-xl-24 my-5">
                     <div className="col-12 col-md-6 px-xl-4 mb-8">
                         <div class="rounded h-100 bg-white py-12 px-6 px-md-16 p-3">
                             <h5 class="mt-6 lh-lg mb-3 font-heading">Proposición atómica</h5>
@@ -119,13 +112,13 @@ function Logica() {
                     </div>
 
                     <div class="mw-xl mx-auto mb-20 mb-xl-16">
-                        <h3 class="text-light">Tablas de Verdad</h3>
+                        <h3 class="text-light">/ Tablas de Verdad</h3>
                         <p class="tables-section p-3 rounded text-dark bg-white my-4">
                             Es la representación de todas las combinaciones posibles de falsedad o veracidad de una proposición atómica o molecular. <br/>
                             Contiene <img class="mx-2" src={Latex1} alt=""/> filas, siendo <img class="mx-2" src={Latex2} alt=""/> la cantidad de variables de la proposición molecular.
                         </p>
                         <h5 class="text">Ejemplos:</h5>
-                        <div class="image-grid-container mt-3">
+                        <div class="image-grid-container my-3">
                             <div class="img-section">
                                 <div class="img-header">
                                     <b>n = 1 </b>
@@ -140,42 +133,6 @@ function Logica() {
                             </div>
                         </div>
 
-                    </div>
-
-                    <div class="mw-xl mx-auto mb-20 mb-xl-16 m-5">
-                        <h3 class="text-light">Valores de Verdad de los Operadores Lógicos</h3>
-                        <div class="image-grid-container mt-3">
-                            <div class="img-section mt-3">
-                                <div class="img-header">
-                                    <b>Conjunción </b>
-                                </div>
-                                <img class="" src={Img1}/>
-                            </div>
-                            <div class="img-section mt-3">
-                                <div class="img-header">
-                                    <b>Disyunción </b>
-                                </div>
-                                <img class="" src={Img2}/>
-                            </div>
-                            <div class="img-section mt-3">
-                                <div class="img-header">
-                                    <b>Condicional </b>
-                                </div>
-                                <img class="" src={Img4}/>
-                            </div>
-                            <div class="img-section mt-3">
-                                <div class="img-header">
-                                    <b>Bicondicional </b>
-                                </div>
-                                <img class="" src={Img5}/>
-                            </div>
-                        </div>
-                        <div class="img-section mt-3">
-                            <div class="img-header">
-                                <b>Negación </b>
-                            </div>
-                            <img class="" src={Img3}/>
-                        </div>
                     </div>
                 </div>
             </div>
