@@ -27,7 +27,7 @@
     text-align: center;
 }
 
-.row .list-section {
+.list-section {
     list-style: none;
     color: #9fa3bc;
     font-size: 18px;
@@ -50,7 +50,7 @@
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .tables-section {
@@ -66,6 +66,7 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(250px, 1fr));
     grid-gap: 10px;
+    justify-content: space-around;
 
     /* For 2 columns */
     /*grid-template-columns: auto auto;
@@ -75,4 +76,14 @@
 
 .img-header {
     color: #9fa3bc;
+}
+
+.c-d-section .text {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.exm-img {
+    margin-right: auto;
+    margin-left: auto;
 }

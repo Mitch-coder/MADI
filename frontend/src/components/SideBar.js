@@ -9,19 +9,19 @@ export function SideBar() {
     const routes = [
         {
             path: "/documentation/logicaproposicional",
-            name: "Logica Proposicional",
+            name: "Lógica Proposicional",
             current: false
         },
 
         {
             path: "/documentation/proposiciones",
-            name: "Proposiciones",
+            name: "Conjunción y Disyunción",
             current: false
         },
 
         {
             path: "/documentation/pcyel",
-            name: "Proposicion Condicional y Equivalentes Logicos",
+            name: "Condicional y Equivalentes Lógicos",
             current: false
         },
 
@@ -39,7 +39,7 @@ export function SideBar() {
 
         {
             path: "/documentation/pruebaporresolucion",
-            name: "Prueba Por Resolucion",
+            name: "Prueba Por Resolución",
             current: false
         },
     ];
