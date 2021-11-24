@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './styles/DesktopGame.css'
-import imagen from './mainimages/aaa.jpg';
 
 function DesktopGame() {
     const [data, setData] = useState([{}])
@@ -30,7 +29,7 @@ function DesktopGame() {
                     <div class="row">
                         <div class="col-lg-6 col-12 text-center">
 
-                            <h3 class="m-5"> De una nueva experiencia... </h3>
+                            <h3 class="m-5"> De una nueva experiencia de baileee... </h3>
 
                             <div class="row">
 
@@ -46,7 +45,7 @@ function DesktopGame() {
                         <div class="col-lg-6 col-12 text-start">
 
                             <h3 class="m-5">
-                                <img src={imagen} class="img-fluid" alt='logo' />
+                                Imagen1
                             </h3>
                             <p>
                             </p>
@@ -59,7 +58,7 @@ function DesktopGame() {
 
                         <div class="col-lg-6 col-12 text-start">
                             <h3 class="m-5">
-                                <img src={imagen} class="img-fluid" alt='logo' />
+                            Imagen2
                             </h3>
 
                             <p>
@@ -69,14 +68,13 @@ function DesktopGame() {
 
                         <div class="col-lg-6 col-12 text-center">
 
-                            <h3 class="m-5"> Mas nuevas experiencia... </h3>
+                            <h3 class="m-5"> Sera que este tipo no se cansa de bailarrrr... </h3>
 
                             <div class="row">
 
                                 <p class="col 12 me-5 ms-5">
-                                    Honestamente no se que poner en este punto de la pagina necesito mas informacion acerca del juego pero
-                                    no tengo ni idea de como puede ser que obtenga mas informacion, a lo mejor dentro de cierto tiempo
-                                    puedo preguntar acerca del juego y hionestemente solo espero que este terminado para ese entonces.
+                                    Este solamente es un texto de relleno realmente no se que poner y ahorita estoy intentando entretenerme a mi mismo haciendo de mi trabajo
+                                    una payasada, pero realmente no se que hacer, o bueno si se que hacer solamente que me da hueva hacerlo.
                                 </p>
 
                             </div>
@@ -88,14 +86,14 @@ function DesktopGame() {
 
                         <div class="col-lg-6 col-12 text-center">
 
-                            <h3 class="m-5"> Muchas experiencias... </h3>
+                            <h3 class="m-5"> Criticos del baile han dicho lo sorprendente que es... </h3>
 
                             <div class="row">
 
                                 <p class="col 12 me-5 ms-5 mb-5">
-                                    Honestamente no se que poner en este punto de la pagina necesito mas informacion acerca del juego pero
-                                    no tengo ni idea de como puede ser que obtenga mas informacion, a lo mejor dentro de cierto tiempo
-                                    puedo preguntar acerca del juego y hionestemente solo espero que este terminado para ese entonces.
+                                    Es te es un chiste demasiado estupido que se me occurrio pero me cuaso bastante gracia hacerlo asi que no pierdo el intento en ello
+                                    a la vez quiero que se mire que hay mucho texto aqui para que se logre apreciar lo conocedor que soy de laa informacion verstil que me 
+                                    puedo inventar mientras improviso que escribir
                                 </p>
 
                             </div>
@@ -103,7 +101,7 @@ function DesktopGame() {
 
                         <div class="col-lg-6 col-12 text-start">
                             <h3 class="m-5">
-                                <img src={imagen} class="img-fluid" alt='logo' />
+                                Imagen3
                             </h3>
                             <p>
                             </p>
