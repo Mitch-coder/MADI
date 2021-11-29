@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import './styles/About.css'
-import Gabriela from './imgs/imgGabriela.png'
-import Jurgen from './imgs/imgJurgen.jpeg'
-import Michelle from './imgs/imgMichelle.jpeg'
+import Gabriela from './imgs/imgGabriela.png';
+import Jurgen from './imgs/imgJurgen.jpeg';
+import Michelle from './imgs/imgMichelle.jpeg';
 
 function AboutUs(){
     const [data,setData] = useState([{}])
@@ -64,16 +64,13 @@ function AboutUs(){
                         <div class="goals-description">
                             <ul class="list px-4 lh-lg">
                                 <li class="list-item my-2">
-                                    Brindar información para aprender y una juego muy divertido.
+                                    Brindar información para aprender de una forma autodidacta.
                                 </li>
                                 <li class="list-item my-2">
-                                    Brindar información para aprender y una juego muy divertido.
+                                    Promover el uso de un juego didactico.
                                 </li>
                                 <li class="list-item my-2">
-                                    Brindar información para aprender y una juego muy divertido.
-                                </li>
-                                <li class="list-item my-2">
-                                    Brindar información para aprender y una juego muy divertido.
+                                    Poner en practica el uso logico por medio de ejercicios resueltos.
                                 </li>
                             </ul>
                         </div>
