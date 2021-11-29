@@ -77,6 +77,20 @@ function AboutUs(){
                                 </li>
                             </ul>
                         </div>
+                        <div className="section-header py-3">
+                            <span className="section-title">/ Código del proyecto </span>
+                        </div>
+                        <div class="link-section m-3">
+
+                            <a href="https://github.com/Mitch-coder/MADI.git">
+
+                                <button type="button" class="btn btn-outline-light btn-lg">
+                                    Ver Código
+                                </button>
+
+                            </a>
+
+                        </div>
                     </div>
                 </div>
             </main>
