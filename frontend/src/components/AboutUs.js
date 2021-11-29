@@ -75,7 +75,7 @@ function AboutUs(){
                             </ul>
                         </div>
                         <div className="section-header my-5">
-                            <span className="section-title">/ Código del proyecto </span>
+                            <span className="section-title">/ Código del Proyecto </span>
                         </div>
                         <div class="link-section m-3">
 
