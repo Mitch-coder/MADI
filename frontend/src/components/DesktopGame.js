@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './styles/DesktopGame.css'
+import GImage1 from './styles/images/GImage1.jpeg';
+import GImage2 from './styles/images/GImage2.jpeg';
+import GImage3 from './styles/images/GImage3.jpeg';
+import GImage4 from './styles/images/GImage4.jpeg';
 
 function DesktopGame() {
     const [data, setData] = useState([{}])
@@ -47,10 +51,8 @@ function DesktopGame() {
                             </div>
 
                             <div class="col-lg-5 col-12 text-start">
-
-                                <h3 class="m-5">
-                                    Imagen1
-                                </h3>
+                                    <img class="exp-img mx-1 img-fluid pe-5 mt-5" src={GImage2} alt="" />
+                               
                             </div>
 
                         </div>
@@ -58,10 +60,7 @@ function DesktopGame() {
                         <div class="row mb-20 ms-5 mt-5 mb-xl-24 my-2 lh-lg">
 
                             <div class="col-lg-5 col-12 text-start">
-                                <h3 class="m-5">
-                                    Imagen2
-                                </h3>
-
+                                    <img class="exp-img mx-1 img-fluid pe-5 mb-5" src={GImage1} alt="" />
                             </div>
 
                             <div class="col-lg-5 col-12 text-center bg-dark rounded text-light me-5">
@@ -72,7 +71,7 @@ function DesktopGame() {
 
                                     <p class="col 12 me-5 ms-5 mb-5">
                                         El pensamiento logico e intuicion natural se pondra a prueba
-                                         por medio de las nuevos aprendizajes obtenidos.
+                                        por medio de las nuevos aprendizajes obtenidos.
                                     </p>
                                 </div>
                             </div>
@@ -89,18 +88,14 @@ function DesktopGame() {
 
                                     <p class="col 12 me-5 ms-5 mb-5">
                                         El pensamiento y razonamiento es algo de la naturaleza humana, y en ti esta el ejercer ese matematico logico dentro tuyo,
-                                        para poder salvar al mundo.
+                                        para poder salvar al mundo, o a ti mismo mejor dicho.
                                     </p>
 
                                 </div>
                             </div>
 
                             <div class="col-lg-5 col-12 text-start">
-                                <h3 class="m-5">
-                                    Imagen3
-                                </h3>
-                                <p>
-                                </p>
+                                    <img class="exp-img mx-1 img-fluid pe-5 mt-5" src={GImage4} alt="" />
                             </div>
 
                         </div>
@@ -109,7 +104,7 @@ function DesktopGame() {
 
                             <div class="col-11 text-center m-5">
 
-                                <a href="https://uni.edu.ni/#/">
+                                <a href="./DesktopGame">
 
                                     <button type="button" class="btn btn-outline-light">
                                         <h3 class="fw-light">Obtener juego</h3>
