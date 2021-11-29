@@ -43,7 +43,7 @@ function AboutUs(){
                             <h6 class="user-descript"> Desarrollador </h6>
                         </div>
                     </div>
-                    <div class="about-description">
+                    <div class="about-description py-5">
                         <div className="section-header pb-3">
                             <span className="section-title">/ Quiénes somos?</span>
                         </div>
