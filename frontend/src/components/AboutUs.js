@@ -43,38 +43,38 @@ function AboutUs(){
                             <h6 class="user-descript"> Desarrollador </h6>
                         </div>
                     </div>
-                    <div class="about-description">
-                        <div className="section-header pb-3">
+                    <div class="about-description py-5 my-5">
+                        <div className="section-header my-5">
                             <span className="section-title">/ Quiénes somos?</span>
                         </div>
                         <div class="description-text lh-lg rounded px-md-10 p-3 m-3">
 
                             <p class="p-3">
-                                MADI, un proyecto de los estudiantes de Ingenieria en Computacion
+                                <strong>MADI</strong>, un proyecto creado por los estudiantes de Ingeniería en Computación
                                 para la asignatura de Matematicas Discretas. Esta pagina esta enfocada en
                                 compartir el conociemiento obtenido en esta materia, con el fin de ayudar a
-                                estudiantes alrededor del mundo a entender los conceptos basicos de
+                                estudiantes alrededor del mundo a entender los conceptos básicos de
                                 forma mas entretenida.
                             </p>
                         
                         </div>
-                        <div className="section-header py-4">
+                        <div className="section-header my-5">
                             <span className="section-title">/ Objetivos </span>
                         </div>
                         <div class="goals-description">
                             <ul class="list px-4 lh-lg">
                                 <li class="list-item my-2">
-                                    Brindar información para aprender de una forma autodidacta.
+                                    Brindar información para aprender de forma autodidacta.
                                 </li>
                                 <li class="list-item my-2">
-                                    Promover el uso de un juego didactico.
+                                    Promover el uso de un juego didáctico.
                                 </li>
                                 <li class="list-item my-2">
-                                    Poner en practica el uso logico por medio de ejercicios resueltos.
+                                    Poner en practica lo aprendido por medio de ejercicios resueltos.
                                 </li>
                             </ul>
                         </div>
-                        <div className="section-header py-4">
+                        <div className="section-header my-5">
                             <span className="section-title">/ Código del proyecto </span>
                         </div>
                         <div class="link-section m-3">
