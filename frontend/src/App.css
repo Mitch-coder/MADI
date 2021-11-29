@@ -2,3 +2,40 @@
   text-align: center;
   scroll-behavior: smooth;
 }
+
+.section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.my-mission{
+  color:#2F50C7;
+  font-size:40px;
+  family-font:roboto;
+}
+.description{
+  font-size:35px;
+}
+.underline{
+  height:04px;
+  width:7rem;
+  background-color:#2F50C7;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.main-title{
+  margin-top:50px;
+  font-size:50px;
+  family-font:roboto;
+}
+#img1,#img2,#img3{
+  padding:50px;
+}
+.row-mission{
+  margin:10px;
+}
+
+.bghome
+{
+  background-color:#161c32;
+
+}

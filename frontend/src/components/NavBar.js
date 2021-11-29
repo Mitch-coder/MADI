@@ -28,7 +28,6 @@ export default class NavBar extends Component {
                 <Nav className="me-auto">
                   <Nav.Link as={Link} to={"/"}>Inicio</Nav.Link>
                   <Nav.Link as={Link} to={"/documentation/logicaproposicional"}>Documentacion</Nav.Link>
-                  <Nav.Link as={Link} to={"/exercises"}>Ejercicios</Nav.Link>
                   <Nav.Link as={Link} to={"/desktopGame"}>Juego</Nav.Link>
                   <Nav.Link as={Link} to={"/aboutUs"}>Quienes somos</Nav.Link>
                 </Nav>

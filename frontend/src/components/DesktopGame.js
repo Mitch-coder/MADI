@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './styles/DesktopGame.css'
+import GImage1 from './styles/images/GImage1.jpeg';
+import GImage2 from './styles/images/GImage2.jpeg';
+import GImage3 from './styles/images/GImage3.jpeg';
+import GImage4 from './styles/images/GImage4.jpeg';
 
 function DesktopGame() {
     const [data, setData] = useState([{}])
@@ -26,104 +30,94 @@ function DesktopGame() {
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="col-lg-6 col-12 text-center">
+                    <div class="row SecondBg mt-3 ms-5 me-5 rounded">
 
-                            <h3 class="m-5"> De una nueva experiencia de baileee... </h3>
+                        <div class="row mb-20 ms-5 mb-3 me=5 mt-5 mb-xl-24 my-2 lh-lg">
 
-                            <div class="row">
+                            <div class="col-lg-5 col-12 text-center bg-dark rounded text-light me-5">
 
-                                <p class="col 12 me-5 ms-5">
-                                    Honestamente no se que poner en este punto de la pagina necesito mas informacion acerca del juego pero
-                                    no tengo ni idea de como puede ser que obtenga mas informacion, a lo mejor dentro de cierto tiempo
-                                    puedo preguntar acerca del juego y hionestemente solo espero que este terminado para ese entonces.
-                                </p>
+                                <h3 class="m-5 fw-light"> De una nueva experiencia... </h3>
+
+                                <div class="row">
+
+                                    <p class="col 12 me-5 ms-5 mb-5">
+
+                                        Pon aprueba tus habilidades aprendidas a lo largo del transcurso por medio de los diferentes obstaculos que pueden haber
+                                        en la travesia de tu aventura.
+
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 col-12 text-start">
+                                    <img class="exp-img mx-1 img-fluid pe-5 mt-5" src={GImage2} alt="" />
+                               
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-20 ms-5 mt-5 mb-xl-24 my-2 lh-lg">
+
+                            <div class="col-lg-5 col-12 text-start">
+                                    <img class="exp-img mx-1 img-fluid pe-5 mb-5" src={GImage1} alt="" />
+                            </div>
+
+                            <div class="col-lg-5 col-12 text-center bg-dark rounded text-light me-5">
+
+                                <h3 class="m-5 fw-light"> La logica sera tu ayuda.. </h3>
+
+                                <div class="row">
+
+                                    <p class="col 12 me-5 ms-5 mb-5">
+                                        El pensamiento logico e intuicion natural se pondra a prueba
+                                        por medio de las nuevos aprendizajes obtenidos.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row mb-20 ms-5 mt-5 mb-xl-24 my-2 lh-lg">
+
+                            <div class="col-lg-5 col-12 text-center bg-dark rounded text-light me-5">
+
+                                <h3 class="m-5 fw-light"> En ti hay un matematico... </h3>
+
+                                <div class="row">
+
+                                    <p class="col 12 me-5 ms-5 mb-5">
+                                        El pensamiento y razonamiento es algo de la naturaleza humana, y en ti esta el ejercer ese matematico logico dentro tuyo,
+                                        para poder salvar al mundo, o a ti mismo mejor dicho.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-5 col-12 text-start">
+                                    <img class="exp-img mx-1 img-fluid pe-5 mt-5" src={GImage4} alt="" />
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-11 text-center m-5">
+
+                                <a href="./DesktopGame">
+
+                                    <button type="button" class="btn btn-outline-light">
+                                        <h3 class="fw-light">Obtener juego</h3>
+                                    </button>
+
+                                </a>
 
                             </div>
-                        </div>
-
-                        <div class="col-lg-6 col-12 text-start">
-
-                            <h3 class="m-5">
-                                Imagen1
-                            </h3>
-                            <p>
-                            </p>
 
                         </div>
 
                     </div>
 
-                    <div class="row">
-
-                        <div class="col-lg-6 col-12 text-start">
-                            <h3 class="m-5">
-                            Imagen2
-                            </h3>
-
-                            <p>
-                            </p>
-
-                        </div>
-
-                        <div class="col-lg-6 col-12 text-center">
-
-                            <h3 class="m-5"> Sera que este tipo no se cansa de bailarrrr... </h3>
-
-                            <div class="row">
-
-                                <p class="col 12 me-5 ms-5">
-                                    Este solamente es un texto de relleno realmente no se que poner y ahorita estoy intentando entretenerme a mi mismo haciendo de mi trabajo
-                                    una payasada, pero realmente no se que hacer, o bueno si se que hacer solamente que me da hueva hacerlo.
-                                </p>
-
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-lg-6 col-12 text-center">
-
-                            <h3 class="m-5"> Criticos del baile han dicho lo sorprendente que es... </h3>
-
-                            <div class="row">
-
-                                <p class="col 12 me-5 ms-5 mb-5">
-                                    Es te es un chiste demasiado estupido que se me occurrio pero me cuaso bastante gracia hacerlo asi que no pierdo el intento en ello
-                                    a la vez quiero que se mire que hay mucho texto aqui para que se logre apreciar lo conocedor que soy de laa informacion verstil que me 
-                                    puedo inventar mientras improviso que escribir
-                                </p>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-12 text-start">
-                            <h3 class="m-5">
-                                Imagen3
-                            </h3>
-                            <p>
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-11 text-center m-5">
-
-                            <a href="https://uni.edu.ni/#/">
-
-                                <button type="button" class="btn btn-outline-light">
-                                    Obtener juego
-                                </button>
-
-                            </a>
-
-                        </div>
-
-                    </div>
                 </main>
             }
         </div>
