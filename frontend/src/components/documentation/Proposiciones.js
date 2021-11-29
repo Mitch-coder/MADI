@@ -69,7 +69,8 @@ function Proposiciones() {
                     <img class="" src={Img3}/>
                 </div>
                 <p class="text p-3 mx-5 lh-lg mb-0">
-                    Se utiliza para decir "No ocurre que". <br/> Ejemplo:<br/>
+                    Se utiliza para decir "No ocurre que".
+                    <h4 class="text-center text-light mt-5">Ejemplo:</h4>
                 </p>
                 <div className="row mb-20 mb-xl-24 mb-4">
                     <div class="col-10 col-md mb-8 text-dark lh-lg">

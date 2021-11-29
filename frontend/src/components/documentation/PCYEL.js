@@ -28,7 +28,7 @@ function ProposicionesCondicionales() {
                         </li>
                     </ul>
                 </div>
-                <h5 class="text-center text-light">Se definen por:</h5>
+                <h4 class="text-center text-light">Se definen por:</h4>
                 <div class="image-grid-container my-3">
                     <div class="img-section mt-3">
                         <div class="img-header">
@@ -43,7 +43,7 @@ function ProposicionesCondicionales() {
                         <img class="pt-2" src={Img2}/>
                     </div>
                 </div>
-                <h5 class="text-center text-light mt-5">Ejemplos:</h5>
+                <h4 class="text-center text-light mt-5">Ejemplo:</h4>
                 <div className="row mb-20 mb-xl-24 my-3">
                     <div class="col-10 col-md mb-8 text-dark lh-lg">
                         <div class="box-exp rounded h-100 px-md-10 p-4 my-3 mx-5">
