@@ -51,7 +51,7 @@
 
 .about-description .description-text {
     text-align: left;
-    background-color: #6060A8 ;
+    background-color: #301878 ;
     border: 2px solid white;
     color: #F0F0F0;
 }
@@ -59,4 +59,24 @@
 .about-description .description-text:hover {
     transform: translate(-7px);
     transition: 300ms;
+}
+
+.goals-description {
+    font-size: 22px;
+    color: #E1E8EB;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*padding: 2rem;
+    background-color: #301878;
+    border-radius: 16px;*/
+}
+
+.list {
+    list-style: none;
+}
+
+.list li::before {
+    content: "▹    ";
 }

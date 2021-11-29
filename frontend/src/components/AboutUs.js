@@ -45,9 +45,8 @@ function AboutUs(){
                     </div>
                     <div class="about-description">
                         <div className="section-header pb-3">
-                            <span className="section-title">Quienes somos?</span>
+                            <span className="section-title">/ Quiénes somos?</span>
                         </div>
-
                         <div class="description-text lh-lg rounded px-md-10 p-3 m-3">
 
                             <p>
@@ -58,6 +57,25 @@ function AboutUs(){
                                 forma mas entretenida.
                             </p>
                         
+                        </div>
+                        <div className="section-header py-3">
+                            <span className="section-title">/ Objetivos </span>
+                        </div>
+                        <div class="goals-description">
+                            <ul class="list px-4 lh-lg">
+                                <li class="list-item my-2">
+                                    Brindar información para aprender y una juego muy divertido.
+                                </li>
+                                <li class="list-item my-2">
+                                    Brindar información para aprender y una juego muy divertido.
+                                </li>
+                                <li class="list-item my-2">
+                                    Brindar información para aprender y una juego muy divertido.
+                                </li>
+                                <li class="list-item my-2">
+                                    Brindar información para aprender y una juego muy divertido.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
