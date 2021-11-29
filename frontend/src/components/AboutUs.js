@@ -49,7 +49,7 @@ function AboutUs(){
                         </div>
                         <div class="description-text lh-lg rounded px-md-10 p-3 m-3">
 
-                            <p>
+                            <p class="p-3">
                                 MADI, un proyecto de los estudiantes de Ingenieria en Computacion
                                 para la asignatura de Matematicas Discretas. Esta pagina esta enfocada en
                                 compartir el conociemiento obtenido en esta materia, con el fin de ayudar a
@@ -58,7 +58,7 @@ function AboutUs(){
                             </p>
                         
                         </div>
-                        <div className="section-header py-3">
+                        <div className="section-header py-4">
                             <span className="section-title">/ Objetivos </span>
                         </div>
                         <div class="goals-description">
@@ -77,7 +77,7 @@ function AboutUs(){
                                 </li>
                             </ul>
                         </div>
-                        <div className="section-header py-3">
+                        <div className="section-header py-4">
                             <span className="section-title">/ Código del proyecto </span>
                         </div>
                         <div class="link-section m-3">
