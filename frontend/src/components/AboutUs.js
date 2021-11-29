@@ -52,7 +52,7 @@ function AboutUs(){
                             <p class="p-3">
                                 <strong>MADI</strong>, un proyecto creado por los estudiantes de Ingeniería en Computación
                                 para la asignatura de Matematicas Discretas. Esta pagina esta enfocada en
-                                compartir el conociemiento obtenido en esta materia, con el fin de ayudar a
+                                compartir el conociemiento obtenido en está materia, con el fin de ayudar a
                                 estudiantes alrededor del mundo a entender los conceptos básicos de
                                 forma mas entretenida.
                             </p>
