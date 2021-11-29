@@ -20,7 +20,7 @@ export function SideBar() {
         },
 
         {
-            path: "/documentation/pcyel",
+            path: "/documentation/condicionales",
             name: "Condicional y Equivalentes Lógicos",
             current: false
         },

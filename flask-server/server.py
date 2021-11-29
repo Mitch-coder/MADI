@@ -25,7 +25,7 @@ def desktopGame():
 # ./aboutUs
 @app.route("/aboutUs")
 def aboutUs():
-    return jsonify({"success":True,"message":"Aqui estaran los guapos de mis creadores"})
+    return jsonify({"success":True,"message":""})
 #Iniciamos el servidor
 if __name__=="__main__":
     app.run(debug=True,host='127.0.0.1',port=5000)

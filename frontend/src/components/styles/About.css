@@ -1,0 +1,62 @@
+.about {
+    background-color: #181830;
+    /*font-family: "NTR", sans-serif;*/
+    font-family: "Open Sans";
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+.about-content > div {
+    /*border: 2px solid #fff;*/
+}
+
+.about-description {
+    /*font-family: "NTR", sans-serif;*/
+    max-width: 800px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.about-developers .profile {
+    font-size: 20px;
+}
+
+.about-developers {
+    letter-spacing: 2px;
+    color: #ccd6f6;
+    /*display: flex;
+    flex-direction: column;*/
+}
+
+.user-descript {
+    color: #9fa3bc;
+}
+
+.about-developers img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+    border: 2px solid var(--green-bright);
+}
+
+.section-header .section-title {
+    color: #D8D8FF;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about-description .description-text {
+    text-align: left;
+    background-color: #6060A8 ;
+    border: 2px solid white;
+    color: #F0F0F0;
+}
+
+.about-description .description-text:hover {
+    transform: translate(-7px);
+    transition: 300ms;
+}

@@ -46,7 +46,7 @@ export default class NavBar extends Component {
             <Route path="documentation" element={<Documentation/>}>
               <Route path="/documentation/logicaproposicional" element={<LogicaProposicional/>}/>
               <Route path="/documentation/proposiciones" element={<Proposiciones/>}/>
-              <Route path="/documentation/pcyel" element={<ProposicionesCondicionales/>}/>
+              <Route path="/documentation/condicionales" element={<ProposicionesCondicionales/>}/>
               <Route path="/documentation/cuantificadores" element={<Cuantificadores/>}/>
               <Route path="/documentation/cuantificadoresanidados" element={<CuantificadoresAnidados/>}/>
               <Route path="/documentation/pruebaporresolucion" element={<PruebasPorResolucion/>}/>
