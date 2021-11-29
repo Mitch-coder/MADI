@@ -121,7 +121,7 @@ function Logica() {
                         <div class="image-grid-container my-3">
                             <div class="img-section">
                                 <div class="img-header">
-                                    <b>n = 1 </b>
+                                    <b>n = 2 </b>
                                 </div>
                                 <img class="mt-3" src={Table2}/>
                             </div>

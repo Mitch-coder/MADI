@@ -67,10 +67,6 @@
     grid-template-columns: repeat(2, minmax(250px, 1fr));
     grid-gap: 10px;
     justify-content: space-around;
-
-    /* For 2 columns */
-    /*grid-template-columns: auto auto;
-    justify-content: stretch;*/
     color: #9fa3bc;
 }
 
@@ -79,11 +75,21 @@
 }
 
 .c-d-section .text {
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
 }
 
 .exm-img {
     margin-right: auto;
     margin-left: auto;
+}
+
+.examples-section {
+    background-color: #40375c;
+    border: 2px solid white;
+    color: #9fa3bc;
+}
+
+.examples-section .list-section {
+    text-align: left;
 }

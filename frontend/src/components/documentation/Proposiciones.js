@@ -22,7 +22,8 @@ function Proposiciones() {
                         para dar la definición formal de los valores de verdad de <b>p ∧ q</b>.
                     </p>
                 </div>
-                <h5 class="text-center text-light">Se definen por:</h5>
+
+                <h4 class="text-center text-light">Se definen por:</h4>
                 <div class="image-grid-container my-3">
                     <div class="img-section mt-3">
                         <div class="img-header">
@@ -37,7 +38,8 @@ function Proposiciones() {
                         <img class="pt-2" src={Img2}/>
                     </div>
                 </div>
-                <h5 class="text-center text-light mt-5">Ejemplos:</h5>
+
+                <h4 class="text-center text-light mt-5">Ejemplos:</h4>
                 <div className="row mb-20 mb-xl-24 my-4">
                     <div class="col-10 col-md mb-8 text-dark lh-lg">
                         <div class="box-exp rounded h-100 px-md-10 p-4 my-3 mx-5">
@@ -58,6 +60,7 @@ function Proposiciones() {
                         </div>
                     </div>
                 </div>
+
                 <div class="mw-xl mx-auto mb-20 mb-xl-16 m-5">
                     <h3 class="text-light">/ La Negación</h3>
                 </div>
@@ -79,7 +82,61 @@ function Proposiciones() {
                         </div>
                     </div>
                 </div>
+
                 <h2 class="text-light my-5">/ Ejercicios Resueltos</h2>
+                <div className="row mb-20 mb-xl-24 mb-4 mx-3">
+                    <div class="examples-section rounded h-100 px-md-10 mb-5">
+                        <h4 class="text-light my-3">Simboliza las siguientes proposiciones:</h4>
+                        <ul class="list-section px-4 lh-lg">
+                            <li class="list-item my-2">
+                                Ni vi la pelí ni leí la novela: <b class="text-light">¬ p ^ q</b>
+                            </li>
+                            <li class="list-item my-2">
+                                O tu estás equivocado o es falsa la noticia que has leído: <b class="text-light">p v q</b>
+                            </li>
+                            <li class="list-item my-2">
+                                No es el caso que p y q: <b class="text-light">¬ (p v q)</b>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="examples-section rounded h-100 px-md-10 mb-5">
+                        <h4 class="text-light my-3">Enlaza cada proposición con su formalización:</h4>
+                        <h6 class="text-light my-2">"Llueve" = p, "Hace sol" = q, "Las brujas se peinan" = r</h6>
+                        <ul class="list-section px-4 lh-lg">
+                            <li class="list-item my-2">
+                                Llueve y las brujas no se peinan o bien hace sol y las brujas no se peinan: <b class="text-light">(p ^ ¬ r) v (q ^ ¬ r)</b>
+                            </li>
+                            <li class="list-item my-2">
+                                Llueve y hace sol: <b class="text-light">p v q</b>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="examples-section rounded h-100 px-md-10 mb-4">
+                        <h4 class="text-light my-3">Determinar si la proposición es falsa o verdadera:</h4>
+                        <h6 class="text-light my-2">p = falso (F), q = verdadera (V), r = falso (F)</h6>
+                        <ul class="list-section px-4 lh-lg">
+                            <li class="list-item mt-2">
+                                ¬ p v ¬ q = <b class="text-light"> V </b> <br/> 
+                                <p class="text-center mt-2">
+                                    <i> Primero operamos la negación en cada una de las variables, teniendo que <br/> 
+                                    ¬ p = V <br/> 
+                                    ¬ q = F <br/>
+                                    Ahora que tenemos los valores reales para cada una de las variables, operamos la proposición completa <br/> V v F = <b class="text-light">V</b> </i>
+                                </p>
+                            </li>
+                            <li class="list-item mb-2">
+                                ¬ p v ¬ (q ^ r) = <b class="text-light"> V </b> <br/> 
+                                <p class="text-center mt-2">
+                                    <i> Comenzamos operando lo que está entre parentesís, teniendo que <br/> ( q ^ r ) = F <br/>
+                                    Luego, tenemos que <br/> ¬ p = V <br/> ¬ ( q ^ r) = V <br/>
+                                    Por lo tanto V v V = <b class="text-light"> V </b> </i>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
     )
